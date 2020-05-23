@@ -1,0 +1,38 @@
+.nav-div {
+  position: fixed;
+  display: flex;
+  margin-top: 20px;
+}
+.nav-div a {
+  text-decoration: none;
+  margin: 10px;
+  display: block;
+}
+footer {
+  background-color: #d81919;
+}
+html,
+body {
+  height: 100%;
+  font-family: 'Titillium Web', sans-serif;
+}
+h1 {
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  color: white;
+}
+header {
+  height: 200px;
+}
+header .head-div {
+  text-align: center;
+  background-color: #484880;
+  height: 100%;
+}
+section {
+  height: 300px;
+}
+section .sec-div {
+  height: 100%;
+  background-image: url();
+}
