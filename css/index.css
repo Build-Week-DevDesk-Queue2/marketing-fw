@@ -38,7 +38,7 @@ body {
   height: auto;
 }
 h1 {
-  font-size: 1.8rem;
+  font-size: 2rem;
   text-transform: uppercase;
   margin: 0;
   color: #0AC3CF;
@@ -71,8 +71,8 @@ main {
   padding-right: 1rem;
   padding-left: 1rem;
 }
-#landing-text button {
-  background: #C716C4;
+.start {
+  background-color: #d37bd3;
   border-radius: 6%;
   font-size: 1.3rem;
 }
@@ -92,7 +92,8 @@ main {
   max-height: 90%;
 }
 button:hover {
-  background: #f4f4f4;
+  background: #010127;
+  color: #b9afaf;
 }
 .card {
   display: flex;
@@ -102,13 +103,16 @@ button:hover {
 }
 .card p {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1rem;
   font-style: italic;
 }
 .card h4 {
   font-size: 25px;
-  font-weight: bolder;
+  font-weight: bold;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.card a {
+  color: blue;
 }
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
@@ -126,15 +130,18 @@ button:hover {
     height: 100vh;
   }
   #landing-text button {
-    padding: 25px 20px;
+    padding: 12px;
   }
   #landing-image {
     height: 100vh;
   }
+  h1 {
+    font-size: 1.5rem;
+  }
 }
 /* Screen Sizes 700px and Up */
 @media (min-width: 700px) {
-  .btn {
+  .start {
     padding: 1rem 3rem;
   }
 }

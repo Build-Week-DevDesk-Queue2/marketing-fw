@@ -7,7 +7,7 @@ body {
   
   h1 {
     // font-weight: 400;
-    font-size: 1.8rem;
+    font-size: 2rem;
     text-transform: uppercase;
     margin: 0;
     color: #0AC3CF;
@@ -45,24 +45,19 @@ body {
     text-align: center;
     padding-right: 1rem;
     padding-left: 1rem;
-    
-    button{
-background: #C716C4;
-border-radius: 6%;
-font-size: 1.3rem;
-// padding: 0%
-
-
-    }
-   
   }
+    
+  .start{
+    background-color: rgb(211, 123, 211);
+    border-radius: 6%;
+    font-size: 1.3rem;
+    }
   
   #landing-text h2 {
     color: #888;
   }
   
   #landing-image {
-    // background: url(../asset/image/iphone1.svg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -78,7 +73,8 @@ font-size: 1.3rem;
   
   
   button:hover {
-    background: #f4f4f4;
+    background:rgb(1, 1, 39);
+    color: rgb(185, 175, 175);
   }
   
   
@@ -90,15 +86,19 @@ font-size: 1.3rem;
     padding: 8px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+    
       p{
       font-weight: bold;
-      font-size: 20px;
+      font-size: 1rem;
       font-style: italic;
     }
     h4 {
       font-size: 25px;
-      font-weight: bolder;
+      font-weight: bold;
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    a{
+      color: blue;
     }
   }
   
@@ -128,7 +128,7 @@ font-size: 1.3rem;
       height: 100vh;
 
       button{
-        padding: 25px 20px;
+        padding: 12px;
         
             }
     }
@@ -136,12 +136,15 @@ font-size: 1.3rem;
     #landing-image {
       height: 100vh;
     }
-    
+    h1{
+      font-size: 1.5rem;
+    }
   }
+  
   
   /* Screen Sizes 700px and Up */
   @media (min-width: 700px) {
-    .btn {
+    .start {
       padding: 1rem 3rem;
     }
   }
