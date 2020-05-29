@@ -94,9 +94,6 @@ main {
 button:hover {
   background: #f4f4f4;
 }
-#git-img {
-  width: 30%;
-}
 .card {
   display: flex;
   padding: 8px;
